@@ -1,0 +1,11 @@
+.active-link {
+    background: black;
+    color: white;
+}
+
+.sorted-asc::after {
+    content: " ▲";
+}
+.sorted-desc::after {
+    content: " ▼";
+}
