@@ -1,6 +1,18 @@
 
-  VITE v8.3.2  ready in 385 ms
+  VITE v8.3.4  ready in 405 ms
 
   ➜  Local:   http://localhost:5173/
   ➜  Network: use --host to expose
   ➜  press h + enter to show help
+9:44:29 PM [vite] changed tsconfig file detected: /Users/ben/Documents/Job Applications/Radianse/React_Project 2/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+9:44:29 PM [vite] vite.config.ts changed, restarting server...
+9:44:29 PM [vite] (client) page reload index.html
+9:44:29 PM [vite] (client) hmr update /src/App.tsx
+9:44:29 PM [vite] (client) hmr update /src/components/NavBar.tsx
+9:44:29 PM [vite] (client) hmr update /src/pages/myUsers.tsx
+9:44:29 PM [vite] (client) page reload src/main.tsx
+9:44:29 PM [vite] (client) hmr update /src/pages/app.css
+9:44:29 PM [vite] (client) hmr update /src/pages/birdayCountdown.tsx
+9:44:29 PM [vite] (client) hmr update /src/pages/index.tsx
+9:44:29 PM [vite] (client) hmr update /src/pages/myUsers.tsx
+9:44:29 PM [vite] server restarted.

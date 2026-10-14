@@ -1,6 +1,10 @@
+.nav-link {
+    padding: 10px;
+}
+
 .active-link {
-    background: black;
-    color: white;
+    background: lightblue;
+    color: rgb(10, 10, 10);
 }
 
 .sorted-asc::after {

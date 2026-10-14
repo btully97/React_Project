@@ -1,17 +1,16 @@
-import ReactDOM from "react-dom";
-import { ChakraProvider } from "@chakra-ui/react";
-import App from "./App.jsx";
+import { createRoot } from "react-dom/client";
+import { ChakraProvider, defaultSystem } from "@chakra-ui/react";
+import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 import { QueryClientProvider, QueryClient } from "react-query";
 
 const queryClient = new QueryClient();
-ReactDOM.render(
+createRoot(document.getElementById("root")!).render(
   <BrowserRouter>
     <QueryClientProvider client={queryClient}>
-      <ChakraProvider>
+      <ChakraProvider value={defaultSystem}>
         <App />
       </ChakraProvider>
     </QueryClientProvider>
   </BrowserRouter>,
-  document.getElementById("root"),
 );
